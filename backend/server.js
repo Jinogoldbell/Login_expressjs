@@ -19,5 +19,5 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Auralis backend running on http://localhost:${PORT}`);
+  console.log(`Auralis backend running on ${PORT}`);
 });
